@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    font-family: "Questrial", sans-serif;
+    scroll-behavior: smooth;
+}
+#fundo{
+    background-image: url(h1_hero1.jpg.webp);
+height: 100vh;
+background-color: rgba(0, 0, 0, 45%);
+background-blend-mode: multiply;
+background-position: center;
+}
+header>img {
+vertical-align: middle;
+margin-top: 3.8vh;
+margin-left: 11%;
+margin-bottom: 3.8vh;
+}
+header>a {
+color: white;
+text-decoration: none;
+}
+.telefone{
+    margin-left: 40%;
+}
+.btn_free {
+    background-color: #d6a04c;
+    border: solid #d6a04c 1px;
+    padding: 14px 24px;
+    margin-left: 2%;
+    transition: 0.2s;
+}
+.btn_free:hover
+{
+    transition: 0.2s;
+    background-color: transparent;
+}
+#menu{
+    display: inline-block;
+    height: 10px;
+    width: 2.5%;
+    border-bottom: solid 1px white ;
+    border-top: solid 1px white;
+    margin-left: 2%;
+}
+#texto{
+color: white;
+}
+#titulo{
+    margin-left: 15.5%;
+    margin-top: 10%;
+    color: #E9E3D9;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+    font-family: "Questrial";
+}
+#stitulo{
+    margin-left: 15.5%;
+    font-family: "Questrial";
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.2;
+}
+    .cabin-regular {
+      font-family: "Cabin", sans-serif;
+      font-style: normal;
+
+    }
+
+
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-style: normal;
+  }
+  #txtbtn{
+    color: #fff;
+    margin-bottom: 41px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    display: inline-block;
+  }
+  #txt{
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+  }
+  #triangulo{
+    background-color: #fff;
+    border: solid #d6a04c 1px;
+    padding: 24px 24px;
+    margin-top: 2%;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 50%;
+    border: solid white 1px;
+    color: #d6a04c;
+  }
+  #triangulo:hover{
+    transition: 0.3s;
+    background-color: #d6a04c;
+    color: white;
+  }
+  #triangulo::after{
+position: absolute;
+height: 72px;
+width: 72px;
+border: solid #d6a04c 2px;
+border-radius: 50%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+  }
+  #triangulo::before{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #cima{
+position: absolute ; right: 0; bottom: 0;
+background-color: #d6a04c;
+width: 65%;
+height: 10vh;
+  }
+  #never{
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .mouse svg{
+height: 40px;
+fill: #d6a04c;
+}
+.mouse{
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+}
+#textob{
+background-color: #d6a04c;
+height: 18vh;
+position: absolute;
+bottom: 0;
+right: 0;
+width: 50%;
+}
+
+#textob div
+{
+  display: inline-block;
+}
+
+
+#texto1{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  display: block;
+  padding: 50px 20px;
+  font-family: "Questrial", sans-serif;
+}
+#texto2{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  display: block;
+  padding: 50px 80px;
+  font-family: "Questrial", sans-serif;
+}
+.parte2{
+  background-color: #0b0016;
+height: 160vh;
+color: #fff;
+}
+#about{
+  font-size: 30px;
+  font-family: "cabin", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 21px;
+  margin-top: 0%;
+  padding-top: 90px;
+  padding-left: 130px;
+}
+
+#about-txt{
+  font-weight: 400;
+}
+#main{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-left: 230px;
+  display: inline-block;
+}
+.studio{
+  margin-top: 0;
+  font-size: 18px;
+  display: inline-block;
+  color: #E9E3D9;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-left: 110px;
+}
+.img1{
+  padding-top: 50px;
+  padding-left: 230px;
+  display: inline-block;
+}
+.btn_freee {
+  color: #fff;
+  background-color: transparent;
+  border: solid #d6a04c 1px;
+  padding: 14px 24px;
+  margin-left: 2%;
+  transition: 0.2s;
+}
+.btn_freee:hover
+{
+  transition: 0.2s;
+  background-color: #d6a04c;
+}
+
+.img2{
+  display: inline-block;
+  margin-left: 100px;
+}
+.img2 img{
+  margin-top: 50px;
+}
+#titulo3{
+  font-size: 25px;
+  font-family: "Cabin", sans-serif;
+  padding-left: 135px;
+  padding-top: 100px;
+}
+#grande{
+  padding-top: 80px;
+  padding-left: 300px;
+}
+#img3{
+  display: inline-block;
+}
+#img4{
+  padding-left: 40px;
+  display: inline-block;
+}
+#img5{
+  padding-left: 40px;
+  display: inline-block;
+}
+.mini{
+  color: #E9E3D9;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-weight: 400;
+    display: block;
+}
+.mini2{
+  color: #E9E3D9;
+  margin-bottom: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+#parte3{
+  background-color: #1e1e1e;
+  color: white;
+  height: 83vh;
+  padding: 100px;
+}
+#textao{
+  font-size: 215px;
+  -webkit-text-stroke: 0.1px white;
+  color: transparent;
+  margin: 0;
+  position: relative;
+}
+#img6{
+  position: absolute;
+  top: 2820px;
+  
+}
+#parte4{
+  background-color: #0b0016;
+  height: 160vh;
+  color: #fff;
+}
+#img7{
+  padding-top: 300px;
+  padding-left: 100px;
+  display: inline-block;
+}
+#titulo1{
+  font-size: 40px;
+  display: inline-block;
+
+}
